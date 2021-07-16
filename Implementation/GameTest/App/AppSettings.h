@@ -5,8 +5,8 @@
 // VIRTUAL has coords from 0.0f to APP_VIRTUAL_[WIDTH/HEIGHT].
 // NATIVE has coords from -1.0f to 1.0f with 0.0f,0.0f as the center of the window.
 #define APP_USE_VIRTUAL_RES		true					// Set true to use virtual coords.					
-#define APP_VIRTUAL_WIDTH		(1024)					// This will be the effective x resolution regardless of actual screen/window res.
-#define APP_VIRTUAL_HEIGHT		(768)					// This will be the effective y resolution regardless of actual screen/window res.
+#define APP_VIRTUAL_WIDTH		(1300)					// This will be the effective x resolution regardless of actual screen/window res.
+#define APP_VIRTUAL_HEIGHT		(700)					// This will be the effective y resolution regardless of actual screen/window res.
 
 #define APP_MAX_FRAME_RATE		(60.0f)					// Maximum update rate.
 #define APP_INIT_WINDOW_WIDTH	(APP_VIRTUAL_WIDTH)		// Initial window width.
@@ -22,8 +22,11 @@
 #define APP_PAD_EMUL_LEFT_THUMB_RIGHT	('D')
 #define APP_PAD_EMUL_LEFT_THUMB_UP		('W')
 #define APP_PAD_EMUL_LEFT_THUMB_DOWN	('S')
-#define APP_PAD_EMUL_BUTTON_ALT_A		(VK_SPACE)
-#define APP_PAD_EMUL_START				(VK_RETURN)
+#define APP_PAD_EMUL_BUTTON_X			('Q')
+#define APP_PAD_EMUL_BUTTON_Y			('E')
+#define APP_PAD_EMUL_BUTTON_B			('P')
+#define APP_PAD_EMUL_BUTTON_A			(VK_SPACE)
+//#define APP_MOUSE_BUTTON				(VK_SPACE)
 
 #define APP_PAD_EMUL_RIGHT_THUMB_LEFT	(VK_NUMPAD4)
 #define APP_PAD_EMUL_RIGHT_THUMB_RIGHT	(VK_NUMPAD6)
@@ -36,10 +39,6 @@
 #define APP_PAD_EMUL_DPAD_RIGHT			(VK_RIGHT)
 	
 #define APP_PAD_EMUL_BUTTON_BACK		(VK_BACK)
-#define APP_PAD_EMUL_BUTTON_A			(VK_DELETE)
-#define APP_PAD_EMUL_BUTTON_B			(VK_END)
-#define APP_PAD_EMUL_BUTTON_X			(VK_INSERT)
-#define APP_PAD_EMUL_BUTTON_Y			(VK_HOME)
 
 #define APP_PAD_EMUL_LEFT_TRIGGER		(VK_NEXT)
 #define APP_PAD_EMUL_RIGHT_TRIGGER		(VK_PRIOR)

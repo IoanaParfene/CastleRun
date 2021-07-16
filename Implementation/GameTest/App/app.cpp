@@ -16,12 +16,13 @@
 
 namespace App
 {	
-	void DrawLine(float sx, float sy, float ex, float ey, float r, float g, float b)
+	void DrawLine(float sx, float sy, float ex, float ey, float r, float g, float b, float line_width)
 	{
 #if APP_USE_VIRTUAL_RES		
 		APP_VIRTUAL_TO_NATIVE_COORDS(sx, sy);
 		APP_VIRTUAL_TO_NATIVE_COORDS(ex, ey);
 #endif
+		glLineWidth(line_width);
 		glBegin(GL_LINES);
 		glColor3f(r, g, b); // Yellow
 		glVertex2f(sx, sy);

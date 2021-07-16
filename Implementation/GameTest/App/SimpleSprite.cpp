@@ -137,6 +137,8 @@ void CSimpleSprite::SetAnimation(int id)
 	m_currentAnim = -1;
 }
 
+
+
 void CSimpleSprite::CreateAnimation(unsigned int id, float speed, const std::vector<int> &frames)
 {
 	sAnimation anim;

@@ -127,6 +127,7 @@ void Idle()
 	double tick = GetCounter() - prevTime;
 	double currentTime = GetCounter();
 	double deltaTime = currentTime - gLastTime;
+
 	// Update.\\ubisoft.org\Projects\Tetra\TOR\Versions\PACKAGES\Durango\TOR-TETRA-STREAM-MAIN-971.2\TEST_profile\MSXC
 	if (deltaTime > (UPDATE_MAX))
 	{	
@@ -177,7 +178,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, 	_In_opt_ HINSTANCE hPrevInstanc
 	// Setup glut.
 	glutInit(&argc, &argv);
 	glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-	glutInitWindowPosition(100, 100);
+	glutInitWindowPosition(100, 50);
 	int glutWind = glutCreateWindow(APP_WINDOW_TITLE);	
 	HDC dc = wglGetCurrentDC();
 	MAIN_WINDOW_HANDLE = WindowFromDC(dc);

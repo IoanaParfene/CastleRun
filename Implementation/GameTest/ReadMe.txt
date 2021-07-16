@@ -20,7 +20,7 @@ GameTest.vcxproj.filters
     and the filters. This association is used in the IDE to show grouping of files with
     similar extensions under a specific node (for e.g. ".cpp" files are associated with the
     "Source Files" filter).
-
+    
 GameTest.cpp
     This is the main application source file.
 

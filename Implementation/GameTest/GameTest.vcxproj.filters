@@ -23,6 +23,12 @@
     <ClCompile Include="App\TextureLoader.cpp">
       <Filter>API</Filter>
     </ClCompile>
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Components.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="HelpFunctions.cpp" />
+    <ClCompile Include="EntityVectro.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App\app.h">
@@ -52,6 +58,15 @@
     <ClInclude Include="App\TextureLoader.h">
       <Filter>API</Filter>
     </ClInclude>
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="Components.h" />
+    <ClInclude Include="EntitySettings.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="HelpFunctions.h" />
+    <ClInclude Include="EntityVectro.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -60,5 +75,11 @@
     <Filter Include="API">
       <UniqueIdentifier>{3e1485bf-3449-4966-8760-976ee866544b}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameTest.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

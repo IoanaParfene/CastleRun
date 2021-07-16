@@ -1,12 +1,22 @@
-﻿  stdafx.cpp
-  app.cpp
-  main.cpp
-  SimpleController.cpp
-  SimpleSound.cpp
-  SimpleSprite.cpp
-  TextureLoader.cpp
-  GameTest.cpp
-  Generating Code...
+﻿  GameState.cpp
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\GameState.cpp(44,17): warning C4101: 'm_instructions': unreferenced local variable
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\GameState.cpp(349,26): warning C4244: 'argument': conversion from 'float' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\GameState.cpp(467,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\EntityVectro.cpp(285,83): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\EntityVectro.cpp(280): message : while compiling class template member function 'void CCollectibleVector<CCollectibleEntity>::AddEntity(SSpriteInfo)'
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\GameState.cpp(66): message : see reference to class template instantiation 'CCollectibleVector<CCollectibleEntity>' being compiled
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\EntityVectro.cpp(282,15): warning C4101: 'collectibleType': unreferenced local variable
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\EntityVectro.cpp(281,15): warning C4101: 'collectibleSpriteInfo': unreferenced local variable
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\EntityVectro.cpp(165,87): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\EntityVectro.cpp(163): message : while compiling class template member function 'void CBackgroundVector<CBackgroundPiece>::RandomizeSpriteInfo(SSpriteInfo *)'
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\EntityVectro.cpp(182): message : see reference to function template instantiation 'void CBackgroundVector<CBackgroundPiece>::RandomizeSpriteInfo(SSpriteInfo *)' being compiled
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\EntityVectro.cpp(138): message : while compiling class template member function 'CBackgroundVector<CBackgroundPiece>::CBackgroundVector(std::vector<SSpriteInfo,std::allocator<SSpriteInfo>>,SSpriteInfo)'
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\GameState.cpp(59): message : see reference to function template instantiation 'CBackgroundVector<CBackgroundPiece>::CBackgroundVector(std::vector<SSpriteInfo,std::allocator<SSpriteInfo>>,SSpriteInfo)' being compiled
+C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\GameTest\GameState.cpp(58): message : see reference to class template instantiation 'CBackgroundVector<CBackgroundPiece>' being compiled
   GameTest.vcxproj -> C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\x64\Debug\GameTest.exe
   C:\Users\Lenovo\Documents\GitHub\Ubisoft-Womxn-Challange-2021\Implementation\\GameTest\glut\bin\x64\freeglut.dll
   1 File(s) copied
