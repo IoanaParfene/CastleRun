@@ -1,5 +1,5 @@
 # CastleRun
-&nbsp;&nbsp;&nbsp;&nbsp;My C++ **winning** **infinite-scroller** game entry for the Bucharest Ubisoft Womxn Programming Challenge 2021. The files were last updated before the final submission.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;My **winning** C++ **infinite-scroller** game entry for the Bucharest Ubisoft Womxn Programming Challenge 2021. The files were last updated before the final submission.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;A **Youtube** link to a **playthrough** video can be found [here](https://www.youtube.com/watch?v=rZ_T-GXEPGE).
 <p align="center">
  <img src="https://user-images.githubusercontent.com/57050677/126003414-ae561432-5b19-451e-88cd-b63c223beaa6.png" width="400" height="230">
